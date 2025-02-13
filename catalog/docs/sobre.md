@@ -1,0 +1,3 @@
+# Sobre
+
+Seja bem-vindo ao "Catálogo de Boas Práticas de Segurança e Monitoramento para Arquitetura de Microsserviços". O material abrangente presente neste documento foi desenvolvido para arquitetos de software, desenvolvedores, estudantes de TI (Tecnologia da Informação) e líderes técnicos que almejam construir sistemas escaláveis, seguros e eficientes. Este guia serve como uma referência valiosa, repleta de insights e orientações práticas, com o objetivo de ilustrar, por meio de Provas de Conceito (PoCs), as estratégias e práticas mais eficazes no contexto da arquitetura de microsserviços.

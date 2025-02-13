@@ -1,1 +1,48 @@
-site_name: My Docs
+site_name: Catálogo
+site_url: https://example.com
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sidebar
+    - navigation.instant
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny  # Icon for light mode
+        name: Switch to dark mode
+      primary: '#4D2D52'
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/weather-night  # Icon for dark mode
+        name: Switch to light mode
+      primary: '#4D2D52'
+      accent: lime
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+nav:
+  - Home: index.md
+  - Sobre: sobre.md
+  - Propósito: proposito.md
+  - Metodologia: metodologia.md
+  - Estrutura: estrutura.md
+  - Boas Práticas: 
+      - X: boaspraticas/pratica1.md
+      - Y: boaspraticas/pratica1.md
+  - PoCs:
+      - PoC 1: pocs/poc1.md
+      - PoC 2: pocs/poc2.md
+      - PoC 2: pocs/poc3.md
+  # - GitHub: https://github.com/yourusername/your-repo
+
+plugins:
+  - search
+  # - mkdocs-material-extensions

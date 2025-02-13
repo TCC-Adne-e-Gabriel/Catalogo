@@ -1,0 +1,40 @@
+/* Customize sidebar background and text colors */
+/* .md-sidebar--primary {
+    background-color: #4D2D52; 
+  } */
+  
+  .md-nav__title {
+    color: #FFFFFF; /* Sidebar header text color */
+    font-size: 0.8rem;
+    font-weight: bold;
+    content: "📄";
+  }
+  
+  .md-nav__link {
+    color: #E0E0E0; /* Sidebar link text color */
+    font-size: 0.8rem;
+  }
+  
+  .md-nav__link:hover {
+    color: #FFFFFF; /* Sidebar link text color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Hover background */
+  }
+/*   
+  .md-nav__item--nested > .md-nav__link::before {
+    content: "📁";
+    margin-right: 0.5rem;
+  }
+  
+  .md-nav__item--section > .md-nav__link::before {
+    content: "📄";
+    margin-right: 0.5rem;
+  }
+   */
+  /* Adjust spacing and padding */
+  .md-nav {
+    padding: 0.5rem;
+  }
+  
+  .md-nav__list {
+    margin-left: 0.5rem;
+  }
