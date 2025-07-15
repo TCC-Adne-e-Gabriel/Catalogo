@@ -5,7 +5,7 @@
 * [Arquitetura de Software](arquitetura-de-software.md)
 * [Segurança de Software](seguranca-de-software/README.md)
   * [OWASP Top Ten](seguranca-de-software/owasp-top-ten.md)
-* [Sistema Objeto de Estudo](sistema-objeto-de-estudo.md)
+* [Sistema - More of This](sistema-more-of-this.md)
 * [Provas de Conceito](catalog/README.md)
   * [POC 1 - Containerização e CI/CD](catalog/poc-1-containerizacao-e-ci-cd/README.md)
     * [Container](catalog/poc-1-containerizacao-e-ci-cd/container.md)
