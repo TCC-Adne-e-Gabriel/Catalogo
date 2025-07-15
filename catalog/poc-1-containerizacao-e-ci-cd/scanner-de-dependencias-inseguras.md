@@ -1,0 +1,2 @@
+# Scanner de dependências inseguras
+
