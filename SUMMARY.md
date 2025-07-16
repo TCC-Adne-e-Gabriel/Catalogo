@@ -38,7 +38,7 @@
 * [JWT e OAuth2](boas-praticas/jwt-e-oauth2.md)
 * [Kubernetes](boas-praticas/kubernetes.md)
 * [Comunicação Segura com TLS](boas-praticas/comunicacao-segura-com-tls.md)
-* [API Ingress](boas-praticas/api-ingress.md)
+* [API Gateway](boas-praticas/api-gateway.md)
 * [Logging](boas-praticas/logging.md)
 * [Prometheus](boas-praticas/prometheus.md)
 * [Grafana](boas-praticas/grafana.md)

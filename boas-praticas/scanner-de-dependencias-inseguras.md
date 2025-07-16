@@ -4,7 +4,7 @@ Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de
 
 Esta prática concentra-se na detecção automatizada de bibliotecas e pacotes vulneráveis em projetos backend e frontend, utilizando **pip-audit** para Python (backend) e **npm audit** para JavaScript/Node.js (frontend).
 
-### Benefícios do SonarCloud em Microsserviços
+### Benefícios em Arquitetura de Microsserviços
 
 * **Detecção Precoce**: Falhas conhecidas são identificadas antes do deploy, evitando vulnerabilidades em ambientes de produção.
 * **Governança de Dependências**: políticas de qualidade, como o Python Packing Advisory Database via PyPI JSON API para o backend, bloqueiam builds inseguras.

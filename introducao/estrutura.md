@@ -6,4 +6,4 @@ O Catálogo está organizado em várias seções, que cobrem aspectos fundamenta
 * **Introdução:** Um grupo de tópicos com foco em apresentação das motivações por trás do Catálogo, seu método de escrita, sua estrutura geral e um pequeno guia de como utilizar suas informações da melhor forma;
 * **Contextualização:** Um grupo de tópicos para contextualizar e introduzir o leitor em temas e conceitos específicos que norteiam o conteúdo presente no Catálogo, também apresentando brevemente o sistema utilizado como base para o desenvolvimento de suas boas práticas;
 * **Provas de Conceito:** Um grupo de tópicos apresentando as Provas de Conceito que foram desenvolvidas para o Catálogo, explicadas detalhadamente em sua teoria e prática;
-* **Boas Práticas:** Um grupo de tópicos apresentando, enfim, as Boas Práticas recomendadas para Segurança e Monitoramento em uma Arquitetura de Microsserviços, separadas por página e explicadas detalhadamente.
+* **Boas Práticas:** Um grupo de tópicos apresentando, enfim, as Boas Práticas recomendadas para Segurança e Monitoramento em uma Arquitetura de Microsserviços, separadas por página e explicadas com seus devidos benefícios.
