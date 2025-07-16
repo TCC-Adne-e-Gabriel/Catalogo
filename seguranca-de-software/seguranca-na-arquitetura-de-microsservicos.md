@@ -1,11 +1,11 @@
 # Segurança na Arquitetura de Microsserviços
 
-Considerando estudos realizados na comunidade de software, diversas boas práticas de segurança em arquitetura de microsserviços foram criadas e utilizadas ao longo do tempo. Dentre as várias práticas utilizadas pela comunidade, seguem algumas das principais:
+Considerando estudos realizados na comunidade de _software_, diversas boas práticas de segurança em arquitetura de microsserviços foram criadas e utilizadas ao longo do tempo. Dentre as várias práticas utilizadas pela comunidade, seguem algumas das principais:
 
 * Utilização de _brokers_ na comunicação entre serviços;
 * Criptografia das mensagens;
 * Aplicação de protocolos seguros;
-* Criação de uma API _gateway_ com autorização e autenticação centralizados, técnicas de taxas de limitação, coleta de métricas para o monitoramento dos serviços e registro dos _logs_ das requisições;
+* Criação de uma _API Gateway_ com autorização e autenticação centralizados, técnicas de taxas de limitação, coleta de métricas para o monitoramento dos serviços e registro dos _logs_ das requisições;
 * Adicionar um _service mesh:_
   * Implementar o balanceamento de carga;
   * Descoberta de serviços;
@@ -26,20 +26,20 @@ _Broker_ (AVGERIOU; ZDUN, 2005) é um padrão arquitetural, no qual faz-se uso d
 
 ### Criptografia das mensagens
 
-Como os microsserviços comunicam-se através da rede, também é de fundamental importância garantir comunicação intra-serviços segura. Para isso, é essencial que as mensagens sejam sempre criptografadas para evitar ataques do tipo _men-in-the-middle_ (MitM) e _eavesdropping_.
+Como os microsserviços comunicam-se através da rede, também é de fundamental importância garantir comunicação intra-serviços segura. Para isso, é essencial que as mensagens sejam sempre criptografadas para evitar ataques do tipo _men-in-the-middle_ (_MitM_) e _eavesdropping_.
 
-Para contexto, no ataque MitM, um invasor se posiciona entre duas partes de uma conexão que acreditam estar se comunicando diretamente, possibilitando a alteração ou injeção de mensagens\
-sem detecção por nenhuma das partes. Já no eavesdropping, também conhecido como espionagem digital, a pessoa mal-intencionada apenas escuta a comunicação sem interferir, capturando dados sensíveis.
+Para contexto, no ataque _MitM_, um invasor se posiciona entre duas partes de uma conexão que acreditam estar se comunicando diretamente, possibilitando a alteração ou injeção de mensagens\
+sem detecção por nenhuma das partes. Já no _eavesdropping_, também conhecido como espionagem digital, a pessoa mal-intencionada apenas escuta a comunicação sem interferir, capturando dados sensíveis.
 
 ### Protocolos seguros
 
-TLS (_Transport Layer Security_) (CLOUDFARE, 2025) é um protocolo de segurança amplamente adotado pelas soluções do mercado, responsável por criptografar a comunicação entre aplicações e serviços hospedados na internet.
+TLS (_Transport Layer Security_) (CLOUDFARE, 2025) é um protocolo de segurança amplamente adotado pelas soluções do mercado, responsável por criptografar a comunicação entre aplicações e serviços hospedados na _internet_.
 
 ### API _Gateway_
 
 #### Autenticação
 
-Ao invés de adicionar uma autenticação para cada serviço, uma abordagem mais adequada seria utilizar o _gateway_ de API para lidar com a autenticação de maneira centralizada, autenticando antes de redirecionar para outros serviços.
+Ao invés de adicionar uma autenticação para cada serviço, uma abordagem mais adequada seria utilizar o _gateway_ de _API_ para lidar com a autenticação de maneira centralizada, autenticando antes de redirecionar para outros serviços.
 
 #### Autorização
 
@@ -59,11 +59,11 @@ Consiste em registrar em _log de_ requisições realizadas entre os serviços do
 
 ### _Service Mesh (Malha de Serviços)_
 
-Service Mesh é algo mais atual na área de Segurança de Software, e trata-se, essencialmente, de um conjunto de proxies de rede que são implantados através da aplicação, que age como mediador nas comunicações entre serviços e aplicações externas. Coloca-se que um proxy é um padrão de projeto que permite proteger um recurso ou funcionalidade do sistema quanto a acessos indevidos.
+_Service Mesh_ é algo mais atual na área de Segurança de Software, e trata-se, essencialmente, de um conjunto de _proxies_ de rede que são implantados através da aplicação, que age como mediador nas comunicações entre serviços e aplicações externas. Coloca-se que um _proxy_ é um padrão de projeto que permite proteger um recurso ou funcionalidade do sistema quanto a acessos indevidos.
 
 #### Balanceamento de carga
 
-Além de sua camada de criptografia, o Service Mesh fornece regras baseadas em balanceamento de carga, que consiste na permissão do roteamento de tráfego através da rede, considerando latência e estado das instâncias do Back-End.
+Além de sua camada de criptografia, o _Service Mesh_ fornece regras baseadas em balanceamento de carga, que consiste na permissão do roteamento de tráfego através da rede, considerando latência e estado das instâncias do _Back-End_.
 
 #### Descoberta de serviços
 

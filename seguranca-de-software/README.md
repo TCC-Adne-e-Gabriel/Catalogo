@@ -10,9 +10,9 @@ Apesar dos sistemas sempre estarem sujeitos às vulnerabilidades, a ocorrência 
 
 A maioria dos dispositivos utilizados pela sociedade nos dias atuais está conectada à rede, o que amplia a exposição a riscos de segurança. Nesse contexto, as consequências dos ataques cibernéticos, que antes se limitavam a sistemas específicos, agora podem afetar diretamente a vida das pessoas, tornando-se ainda mais evidentes e preocupantes (MCGRAW, 2006b).
 
-Segurança de Software, como uma subárea de conhecimento e desenvolvimento da Engenharia de Software, tem despertado bastante interesse na comunidade de software.
+Segurança de Software, como uma subárea de conhecimento e desenvolvimento da Engenharia de Software, tem despertado bastante interesse na comunidade de _software_.
 
-Segundo o guia de desenvolvedores da OWASP (Open Web Application Security Project) (FOUNDATION, 2025), os fundamentos da segurança de aplicações são:
+Segundo o guia de desenvolvedores da OWASP (_Open Web Application Security Project_) (FOUNDATION, 2025), os fundamentos da segurança de aplicações são:
 
 * **Confidencialidade:** A confidencialidade compreende garantir que os dados armazenados, ou ainda disponíveis em um canal de comunicação, só sejam acessados por entidades que possuem o acesso necessário para realizar tal ação;
 * **Integridade:** A integridade compreende a proteção dos dados sobre a tentativa de mudanças não autorizada, desde a sua coleta até o devido uso;
@@ -21,7 +21,7 @@ Segundo o guia de desenvolvedores da OWASP (Open Web Application Security Projec
 * **Autorização:** A autorização é definida como o processo de verificar se o acesso a determinado recurso é aprovado para uma entidade específica, e
 * **Auditoria:** A auditoria relaciona-se com a rastreabilidade do sistema, ter rastros de eventos em nível de aplicação e de negócio. Auxilia no não-repúdio, ou seja, na ideia de que mudanças ou ações no sistema não são negáveis, consistindo em perguntas como "Quem fez o que? Quando? e Como?".
 
-É essencial lidar com questões de segurança desde o início do ciclo de desenvolvimento de software, tomando conhecimento e entendimento de problemas comuns; arquitetando o sistema para que o mesmo tenha segurança, e submetendo os artefatos e produtos ao monitoramento e aos testes contínuos (MCGRAW, 2006b).
+É essencial lidar com questões de segurança desde o início do ciclo de desenvolvimento de _software_, tomando conhecimento e entendimento de problemas comuns; arquitetando o sistema para que o mesmo tenha segurança, e submetendo os artefatos e produtos ao monitoramento e aos testes contínuos (MCGRAW, 2006b).
 
 
 

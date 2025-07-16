@@ -30,9 +30,9 @@
 
 ## 📈 BOAS PRÁTICAS
 
-* [Container](boas-praticas/container.md)
+* [Container Docker](boas-praticas/container-docker.md)
 * [Análise de Segurança de Código](boas-praticas/analise-de-seguranca-de-codigo.md)
-* [Scanner de dependências inseguras](boas-praticas/scanner-de-dependencias-inseguras.md)
+* [Scanner de Dependências Inseguras](boas-praticas/scanner-de-dependencias-inseguras.md)
 * [ORM e Validação de Dados](boas-praticas/orm-e-validacao-de-dados.md)
 * [Criptografia de Dados](boas-praticas/criptografia-de-dados.md)
 * [JWT e OAuth2](boas-praticas/jwt-e-oauth2.md)
@@ -40,6 +40,4 @@
 * [Comunicação Segura com TLS](boas-praticas/comunicacao-segura-com-tls.md)
 * [API Gateway](boas-praticas/api-gateway.md)
 * [Logging](boas-praticas/logging.md)
-* [Prometheus](boas-praticas/prometheus.md)
-* [Grafana](boas-praticas/grafana.md)
-* [Alertas](boas-praticas/alertas.md)
+* [Prometheus com Grafana](boas-praticas/prometheus-com-grafana.md)
