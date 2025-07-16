@@ -43,8 +43,7 @@ Segundo Myf5 (2022), vulnerabilidades de falha de configuração são fragilidad
 
 6. Componentes Vulneráveis e Ultrapassados (A06:2021 – Vulnerable and Outdated Components)
 
-Esse tipo de vulnerabilidade acontece quando um componente não é\
-suportado, está ultrapassado, ou ainda vulnerável, representando uma ameaça para a aplicação (MYF5, 2022).
+Esse tipo de vulnerabilidade acontece quando um componente não é&#x20;suportado, está ultrapassado, ou ainda vulnerável, representando uma ameaça para a aplicação (MYF5, 2022).
 
 
 
@@ -56,7 +55,7 @@ Segundo OWASP (2021), autenticação, gerenciamento de sessão e confirmação d
 
 8. Falhas de Integridade de Dados e de Software (A08:2021 – Software and Data Integrity Failures)
 
-Relacionada com atualização de software, dados críticos, pipelines de CI/CD sem verificar a integridade (OWASP, 2021).
+Relacionada com atualização de software, dados críticos e/ou pipelines de CI/CD sem verificar a integridade (OWASP, 2021).
 
 
 

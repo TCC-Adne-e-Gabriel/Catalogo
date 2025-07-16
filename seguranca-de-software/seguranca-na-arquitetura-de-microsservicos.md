@@ -2,19 +2,17 @@
 
 Dicas de boas práticas de segurança em arquitetura de microsserviços:
 
-* Utilização de _brokers_ na comunicação entre serviços
-* Criptografia das mensagens
-* Aplicação de protocolos seguros
-* Criação de uma API _gateway_ com autorização e autenticação centralizados, técnicas de taxas de limitação, coleta de métricas para o monitoramento dos serviços e registro dos _logs_ das requisições
-* Adicionar um _service mesh_
-* Implementar o balanceamento de carga
-* Descoberta de serviços
-* Monitoramento de tráfego
-* Tolerância a falhas
-* Controle de acesso e autenticação
-* Interrupção de circuitos
-
-
+* Utilização de _brokers_ na comunicação entre serviços;
+* Criptografia das mensagens;
+* Aplicação de protocolos seguros;
+* Criação de uma API _gateway_ com autorização e autenticação centralizados, técnicas de taxas de limitação, coleta de métricas para o monitoramento dos serviços e registro dos _logs_ das requisições;
+* Adicionar um _service mesh;_
+* Implementar o balanceamento de carga;
+* Descoberta de serviços;
+* Monitoramento de tráfego;
+* Tolerância a falhas;
+* Controle de acesso e autenticação, e
+* Interrupção de circuitos.
 
 ### Brokers na comunicação entre serviços
 
