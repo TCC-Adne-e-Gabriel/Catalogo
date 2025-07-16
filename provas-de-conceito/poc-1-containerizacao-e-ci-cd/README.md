@@ -8,9 +8,9 @@ para os diferentes microsserviços, assim possibilitando a implantação e a an�
 
 ### Boas práticas trabalhadas
 
-* Utilização de um [container](../boas-praticas/container-docker.md) Docker para cada microsserviço;
-* Utilização de ferramentas de [análise de segurança](../boas-praticas/analise-de-seguranca-de-codigo.md) de código em tempo de deploy, ou seja, aplicação de pipelines de segurança com a utilização de SonarQube, e
-* Utilização de ferramentas para [análise de dependências inseguras](../boas-praticas/scanner-de-dependencias-inseguras.md) em tempo de deploy.
+* Utilização de um [container](../../boas-praticas/container-docker.md) Docker para cada microsserviço;
+* Utilização de ferramentas de [análise de segurança](../../boas-praticas/analise-de-seguranca-de-codigo.md) de código em tempo de deploy, ou seja, aplicação de pipelines de segurança com a utilização de SonarQube, e
+* Utilização de ferramentas para [análise de dependências inseguras](../../boas-praticas/scanner-de-dependencias-inseguras.md) em tempo de deploy.
 
 ### Planejamento
 
@@ -25,29 +25,17 @@ As vulnerabilidades do OWASP Top Ten implantadas nessa PoC foram as seguintes:
 
 Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguintes tarefas:
 
-* Utilização de Docker e Docker-compose para os containers em todos os microsserviços;
-* Utilização do SonarCloud como ferramenta de análise de segurança, e
+* Utilização do SonarCloud como ferramenta de análise de segurança;
+* Utilização de Docker e Docker-compose para os containers em todos os microsserviços, e
 * Utilização de Pip Audit e Npm Audit como ferramentas para análise de dependências inseguras.
 
 ### Desenvolvimento
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
-1.  Ferramentas de análise de segurança de software:
-
-    Para a aplicação da primeira boa prática, adotou-se a ferramenta de análise de\
-    código estática SonarQube. Para isso, foi necessária a criação de uma organização no\
-    SonarCloud para os repositórios do trabalho de conclusão de curso, além da adição\
-    de um workflow no GitHub para rodar o scanner do SonarCloud nas seguintes ações:
-2. a
-
-### Análise de Resultados
-
-
-
-
-
-
+1. [Análise de Segurança de Software](analise-de-seguranca-de-codigo.md);&#x20;
+2. [Análise de Dependências Inseguras](analise-de-dependencias-inseguras.md);
+3. [Containerização](containerizacao.md).
 
 
 

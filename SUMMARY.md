@@ -23,8 +23,16 @@
 
 ## 📝 Provas de Conceito
 
-* [PoC 1 - Containerização e CI/CD](provas-de-conceito/poc-1-containerizacao-e-ci-cd.md)
-* [PoC 2 - Autenticação e Comunicação](provas-de-conceito/poc-2-autenticacao-e-comunicacao.md)
+* [PoC 1 - Containerização e CI/CD](provas-de-conceito/poc-1-containerizacao-e-ci-cd/README.md)
+  * [Análise de Segurança de Código](provas-de-conceito/poc-1-containerizacao-e-ci-cd/analise-de-seguranca-de-codigo.md)
+  * [Análise de Dependências Inseguras](provas-de-conceito/poc-1-containerizacao-e-ci-cd/analise-de-dependencias-inseguras.md)
+  * [Containerização](provas-de-conceito/poc-1-containerizacao-e-ci-cd/containerizacao.md)
+  * [Análise de Resultados](provas-de-conceito/poc-1-containerizacao-e-ci-cd/analise-de-resultados.md)
+* [PoC 2 - Autenticação e Comunicação](provas-de-conceito/poc-2-autenticacao-e-comunicacao/README.md)
+  * [ORM e validação de dados de entrada e saída](provas-de-conceito/poc-2-autenticacao-e-comunicacao/orm-e-validacao-de-dados-de-entrada-e-saida.md)
+  * [Utilização de práticas de Criptografia](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-praticas-de-criptografia.md)
+  * [Utilização de JWT](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-jwt.md)
+  * [Utilização de OAuth2](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-oauth2.md)
 * [PoC 3 - Gerenciamento de Containers e Serviços](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos.md)
 * [PoC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md)
 

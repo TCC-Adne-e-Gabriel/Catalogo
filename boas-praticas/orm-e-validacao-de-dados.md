@@ -1,6 +1,6 @@
 # ORM e Validação de Dados
 
-Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 Esta prática concentra-se na utilização do _**SQLAlchemy**_, um _**ORM**_ que fornece uma camada de abstração para acesso ao banco de dados, e a utilização da biblioteca de _**Python**_ _**Pydantic**_ para validação de dados.
 

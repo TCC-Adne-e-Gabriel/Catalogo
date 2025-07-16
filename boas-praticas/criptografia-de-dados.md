@@ -1,6 +1,6 @@
 # Criptografia de Dados
 
-Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 Esta prática concentra-se na utilização de práticas de criptografia de dados por meio do _**BCrypt**_, uma biblioteca _Python_ criada com o objetivo de geração de _hashs_ para senhas.
 

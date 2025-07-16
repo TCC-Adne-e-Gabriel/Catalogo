@@ -27,11 +27,11 @@ O _Front-End_ da aplicação está dividido entre diversas páginas, que visam p
 
 * Página inicial do sistema:&#x20;
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Página de _login_ do sistema:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Página de Produtos do Sistema:&#x20;
 

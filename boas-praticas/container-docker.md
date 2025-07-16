@@ -1,6 +1,6 @@
 # Container Docker
 
-Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de-conceito/poc-1-containerizacao-e-ci-cd.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de-conceito/poc-1-containerizacao-e-ci-cd/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 A abordagem proposta combina **Docker** para criação de imagens, e **Docker Compose** para a criação e execução de um Container, garantindo qualidade e consistência ao longo de todo o ciclo de vida de cada serviço.
 

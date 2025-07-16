@@ -1,6 +1,6 @@
 # JWT e OAuth2
 
-Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 Esta prática concentra-se na utilização de práticas de _**OAuth2**_, com _tokenização_ por meio dos _**JSON Web Tokens**_, para promover a Autorização e Autenticação no sistema.
 

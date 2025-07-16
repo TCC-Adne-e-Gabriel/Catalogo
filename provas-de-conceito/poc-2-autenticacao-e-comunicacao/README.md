@@ -7,10 +7,10 @@ entrada e saída, manipulação e armazenamento de dados, autenticação e autor
 
 ### Boas práticas trabalhadas
 
-* Utilização de [ORM (Object-Relational Mapping) e validação de dados](../boas-praticas/orm-e-validacao-de-dados.md) de entrada e saída;
-* Utilização de práticas de [Criptografia de Dados](../boas-praticas/criptografia-de-dados.md);
-* Utilização do protocolo [JWT](../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização, e
-* Utilização do protocolo [OAuth 2.0](../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização.
+* Utilização de [ORM (Object-Relational Mapping) e validação de dados](../../boas-praticas/orm-e-validacao-de-dados.md) de entrada e saída;
+* Utilização de práticas de [Criptografia de Dados](../../boas-praticas/criptografia-de-dados.md);
+* Utilização do protocolo [JWT](../../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização, e
+* Utilização do protocolo [OAuth 2.0](../../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização.
 
 ### Planejamento
 
@@ -28,7 +28,11 @@ As vulnerabilidades do **OWASP Top Ten** implantadas nessa PoC foram as seguinte
 
 Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguintes tarefas:
 
-*
+* Utilização de ORM (Object-Relational Mapping) (COOKIES, 2024) e validação de\
+  dados de entrada e saída;
+* Utilização de práticas de Criptografia de Dados (OWASP, 2021);
+* Utilização do protocolo JWT (GONZALEZ; ORTIZ, 2024), e
+* Utilização do protocolo OAuth 2.0 (GONZALEZ; ORTIZ, 2024).
 
 ### Desenvolvimento
 
@@ -36,4 +40,12 @@ Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em quest
 
 1.
 
-### Análise de Resultados
+### Referências
+
+COOKIES, D. TitleUnderstanding Object-Relational Mapping (ORM): Why and\
+When You Should Use It. 2024. Disponível em: \<https://devcookies.medium.com/\
+titleunderstanding-object-relational-mapping-orm-why-and-when-you-should-use-it-a18decc410ba>.
+
+GONZALEZ, S.; ORTIZ, I. Overcoming challenges in microservice architetures. ResearchGate, 2024. Acessado em: 07 jan. 2025. Disponível em: \<https://www. researchgate.net/publication/386219405\_Overcoming\_Challenges\_in\_Microservice\_ Architectures>.
+
+OWASP. OWASP Top 10: 2021. 2021. Acessado em: 07 jan. 2025.

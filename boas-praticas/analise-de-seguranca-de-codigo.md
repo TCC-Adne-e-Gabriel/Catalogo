@@ -1,6 +1,6 @@
 # Análise de Segurança de Código
 
-Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de-conceito/poc-1-containerizacao-e-ci-cd.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de-conceito/poc-1-containerizacao-e-ci-cd/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 A abordagem recomendada baseia‑se no uso de ferramentas de análise estática de código, como o **SonarCloud**, para garantir qualidade e segurança contínuas em cada serviço de uma arquitetura de microsserviços.
 
