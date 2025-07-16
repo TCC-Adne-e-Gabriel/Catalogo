@@ -2,7 +2,7 @@
 
 ### Definição
 
-A PoC consistiu na aplicação de boas práticas associadas a Monitoramento, Observabilidade, Rastreabilidade e Detecção de Falhas.
+Essa PoC consistiu na aplicação de boas práticas associadas a Monitoramento, Observabilidade, Rastreabilidade e Detecção de Falhas.
 
 ### Boas práticas trabalhadas
 
