@@ -191,9 +191,105 @@ spec:
 
 ### Aplicações:&#x20;
 
-**Service**:
+O arquivo de services e de deployment foi o mesmo para todos os serviços do backend, com mudanças apenas no nome.
+
+**Deployment**:
+
+{% code lineNumbers="true" %}
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tcc-catalog
+  labels:
+    app: tcc-catalog
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tcc-catalog
+  template:
+    metadata:
+      labels:
+        app: tcc-catalog
+    spec:
+      initContainers:
+      - name: db-migration-init
+        image: adnemoretti/tcc-catalog:latest
+        command: ["/bin/sh", "-c", "/app/scripts/prestart.sh"] 
+        env:
+        - name: POSTGRES_SERVER
+          value: catalog-db
+        - name: POSTGRES_PORT
+          value: "5432"
+        - name: POSTGRES_DB
+          value: catalog_db
+        - name: POSTGRES_USER
+          valueFrom:
+            configMapKeyRef:
+              name: catalog-secrets
+              key: POSTGRES_USER
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            configMapKeyRef:
+              name: catalog-secrets
+              key: POSTGRES_PASSWORD
+
+      containers:
+      - name: tcc-catalog
+        image: adnemoretti/tcc-catalog:latest
+        ports:
+        - containerPort: 8002
+        env:
+        - name: POSTGRES_SERVER
+          value: catalog-db
+        - name: POSTGRES_PORT
+          value: "5432"
+        - name: POSTGRES_DB
+          value: catalog_db
+        - name: POSTGRES_USER
+          valueFrom:
+            configMapKeyRef:
+              name: catalog-secrets
+              key: POSTGRES_USER
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            configMapKeyRef:
+              name: catalog-secrets
+              key: POSTGRES_PASSWORD
+        - name: SECRET_KEY
+          value: <key>
+        - name: ALGORITHM
+          value: <algorithm>
+        - name: ACCESS_TOKEN_EXPIRE_DAYS
+          value: "<tempo>"
+```
+{% endcode %}
+
+**Service**:&#x20;
+
+{% code lineNumbers="true" %}
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: tcc-catalog
+  labels:
+    app: tcc-catalog
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8002
+    name: tcc-catalog
+  selector:
+    app: tcc-catalog
+```
+{% endcode %}
 
 
+
+O repositório com todos os arquivos de configuração utilizados no projeto podem ser visualizados aqui: [https://github.com/TCC-Adne-e-Gabriel/k3s-configs](https://github.com/TCC-Adne-e-Gabriel/k3s-configs)
 
 ### Referências
 
