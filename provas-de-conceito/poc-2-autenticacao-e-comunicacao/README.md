@@ -38,7 +38,10 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
-1.
+1. [ORM e validação de dados de entrada e saída](orm-e-validacao-de-dados-de-entrada-e-saida.md);
+2. [Utilização de práticas de criptografia](utilizacao-de-praticas-de-criptografia.md);&#x20;
+3. [Utilização de JWT;](utilizacao-de-jwt.md)
+4. [Utilização de OAuth2](utilizacao-de-oauth2.md);&#x20;
 
 ### Referências
 
