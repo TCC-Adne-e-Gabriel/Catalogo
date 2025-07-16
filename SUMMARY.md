@@ -23,19 +23,10 @@
 
 ## 📝 Provas de Conceito
 
-* [POC 1 - Containerização e CI/CD](provas-de-conceito/poc-1-containerizacao-e-ci-cd/README.md)
-  * [Container](provas-de-conceito/poc-1-containerizacao-e-ci-cd/container.md)
-  * [Ferramenta de Análise de Segurança](provas-de-conceito/poc-1-containerizacao-e-ci-cd/ferramenta-de-analise-de-seguranca.md)
-  * [Scanner de dependências inseguras](provas-de-conceito/poc-1-containerizacao-e-ci-cd/scanner-de-dependencias-inseguras.md)
-* [POC 2 - Autenticação e Comunicação](provas-de-conceito/poc-2-autenticacao-e-comunicacao/README.md)
-  * [ORM e Validação de Dados](provas-de-conceito/poc-2-autenticacao-e-comunicacao/orm-e-validacao-de-dados.md)
-  * [Criptografia de Dados](provas-de-conceito/poc-2-autenticacao-e-comunicacao/criptografia-de-dados.md)
-  * [JWT e OAuth2](provas-de-conceito/poc-2-autenticacao-e-comunicacao/jwt-e-oauth2.md)
-* [POC 3 - Gerenciamento de Containers e Serviços](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/README.md)
-  * [Kubernetes](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/kubernetes.md)
-  * [Comunicação Segura com TLS](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/comunicacao-segura-com-tls.md)
-  * [API Ingress](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/api-ingress.md)
-* [POC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md)
+* [PoC 1 - Containerização e CI/CD](provas-de-conceito/poc-1-containerizacao-e-ci-cd.md)
+* [PoC 2 - Autenticação e Comunicação](provas-de-conceito/poc-2-autenticacao-e-comunicacao.md)
+* [PoC 3 - Gerenciamento de Containers e Serviços](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos.md)
+* [PoC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md)
 
 ## 📈 BOAS PRÁTICAS
 
@@ -49,3 +40,6 @@
 * [Comunicação Segura com TLS](boas-praticas/comunicacao-segura-com-tls.md)
 * [API Ingress](boas-praticas/api-ingress.md)
 * [Logging](boas-praticas/logging.md)
+* [Prometheus](boas-praticas/prometheus.md)
+* [Grafana](boas-praticas/grafana.md)
+* [Alertas](boas-praticas/alertas.md)

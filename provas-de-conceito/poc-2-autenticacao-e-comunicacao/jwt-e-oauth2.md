@@ -1,2 +1,0 @@
-# JWT e OAuth2
-

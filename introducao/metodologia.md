@@ -1,12 +1,12 @@
 # Metodologia
 
-## Método Geral
+### Método Geral
 
 Após um processo investigativo realizado no início do trabalho, o método geral do trabalho foi definido como o de [Provas de Conceito](broken-reference). Para o desenvolvimento das Provas de Conceito, foi elaborado um [sistema base](../sistema-more-of-this.md) para a aplicação das Boas Práticas de Segurança e Monitoramento.
 
 Essas boas práticas foram separadas em tópicos mais abrangentes, ou seja, cada Prova de Conceito englobou um conjunto de boas práticas que foram implementadas no software. Ao final da implementação de cada PoC, foi feita uma análise quantitativa/qualitativa sobre os resultados obtidos, no que diz respeito à Segurança e ao Monitoramento de Software.
 
-## Provas de Conceito
+### Provas de Conceito
 
 Visando à construção de uma Prova de Conceito adequada, com maior entendimento do problema e resultados claros, foi definida uma sequência de etapas para a elaboração de cada uma das Provas de Conceito, como seguem:
 

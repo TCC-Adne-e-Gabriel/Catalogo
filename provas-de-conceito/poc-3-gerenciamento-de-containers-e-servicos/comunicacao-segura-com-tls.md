@@ -1,2 +1,0 @@
-# Comunicação Segura com TLS
-
