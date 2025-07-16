@@ -7,9 +7,9 @@ Por meio da _**API Gateway**_, implementaram-se mecanismos de roteamento de requ
 
 ### Boas práticas trabalhadas
 
-* Utilização de [Kubernetes](../boas-praticas/kubernetes.md) para gerenciamento dos _containers_;
-* Utilização do Protocolo de Comunicação Segura via [TLS](../boas-praticas/comunicacao-segura-com-tls.md), e
-* Restrição de acesso a APIs públicas com [API Gateway](../boas-praticas/api-gateway.md).
+* Utilização de [Kubernetes](../../boas-praticas/kubernetes.md) para gerenciamento dos _containers_;
+* Utilização do Protocolo de Comunicação Segura via [TLS](../../boas-praticas/comunicacao-segura-com-tls.md), e
+* Restrição de acesso a APIs públicas com [API Gateway](../../boas-praticas/api-gateway.md).
 
 ### Planejamento
 

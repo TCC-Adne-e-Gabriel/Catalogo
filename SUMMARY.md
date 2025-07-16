@@ -33,7 +33,10 @@
   * [Utilização de práticas de Criptografia](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-praticas-de-criptografia.md)
   * [Utilização de JWT](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-jwt.md)
   * [Utilização de OAuth2](provas-de-conceito/poc-2-autenticacao-e-comunicacao/utilizacao-de-oauth2.md)
-* [PoC 3 - Gerenciamento de Containers e Serviços](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos.md)
+* [PoC 3 - Gerenciamento de Containers e Serviços](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/README.md)
+  * [Gerenciamento de Container com Kubernetes](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/gerenciamento-de-container-com-kubernetes.md)
+  * [Comunicação segura via TLS](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/comunicacao-segura-via-tls.md)
+  * [API Gateway](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/api-gateway.md)
 * [PoC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md)
 
 ## 📈 BOAS PRÁTICAS
