@@ -2,7 +2,7 @@
 
 * [🔐 Catálogo de Boas Práticas de Segurança e Monitoramento](README.md)
 
-## Introdução
+## ❗ Introdução
 
 * [Propósito](introducao/proposito.md)
 * [Metodologia](introducao/metodologia.md)
@@ -17,6 +17,7 @@
 * [Segurança de Software](seguranca-de-software/README.md)
   * [OWASP Top Ten](seguranca-de-software/owasp-top-ten.md)
   * [Segurança na Arquitetura de Microsserviços](seguranca-de-software/seguranca-na-arquitetura-de-microsservicos.md)
+* [Monitoramento de Software](monitoramento-de-software.md)
 * [Provas de Conceito](catalog.md)
 * [Sistema - MORE OF THIS](sistema-more-of-this.md)
 

@@ -4,7 +4,7 @@ A OWASP (sigla em inglês para Open Web Application Security Project, ou Projeto
 
 A comunidade OWASP publica diversos estudos e pesquisas sobre segurança, sendo reconhecida por produzir a lista "OWASP Top Ten" (originalmente The Ten Most Critical Web Application Security Vulnerabilities) (OWASP, 2021).
 
-Publicado inicialmente em 2003, o OWASP Top Ten apresenta as dez vulnerabilidades e ameaças mais críticas que poderiam ser encontradas na etapa de desenvolvimento web, e essencialmente aborda as vulnerabilidades mais frequentemente exploradas por agentes mal-intencionados que possam realizar a tentativa de invasão ou alteração de software. Além de descrever como essas vulnerabilidades funcionam, a OWASP também oferece orientações para suas mitigação, ajudando desenvolvedores a adotar devidas práticas que reduzam os riscos associados.
+Publicado inicialmente em 2003, o OWASP Top Ten apresenta as dez vulnerabilidades e ameaças mais críticas que poderiam ser encontradas na etapa de desenvolvimento Web, e essencialmente aborda as vulnerabilidades mais frequentemente exploradas por agentes mal-intencionados que possam realizar a tentativa de invasão ou alteração de software. Além de descrever como essas vulnerabilidades funcionam, a OWASP também oferece orientações para suas mitigação, ajudando desenvolvedores a adotar devidas práticas que reduzam os riscos associados.
 
 A lista OWASP Top 10 de 2021 (OWASP, 2021), apresenta as seguintes vulnerabilidades:
 
@@ -67,4 +67,4 @@ Essa categoria existe para auxiliar na detecção, escalada e resposta às falha
 
 10. #### Falsificação de Request do Lado do Servidor (A10:2021 – Server-Side Request Forgery (SSRF))
 
-Vulnerabilidades dessa categoria acontecem quando uma aplicação web está requisitando um recurso remoto do lado do servidor sem validar a URL fornecida pelo usuário. Nesse cenário, é possível que o atacante mande uma requisição criada para um destino não esperado (OWASP, 2021).&#x20;
+Vulnerabilidades dessa categoria acontecem quando uma aplicação Web está requisitando um recurso remoto do lado do servidor sem validar a URL fornecida pelo usuário. Nesse cenário, é possível que o atacante mande uma requisição criada para um destino não esperado (OWASP, 2021).&#x20;

@@ -1,18 +1,22 @@
 # Segurança na Arquitetura de Microsserviços
 
-Dicas de boas práticas de segurança em arquitetura de microsserviços:
+Considerando estudos realizados na comunidade de software, diversas boas práticas de segurança em arquitetura de microsserviços foram criadas e utilizadas ao longo do tempo. Dentre as várias práticas utilizadas pela comunidade, seguem algumas das principais:
 
 * Utilização de _brokers_ na comunicação entre serviços;
 * Criptografia das mensagens;
 * Aplicação de protocolos seguros;
 * Criação de uma API _gateway_ com autorização e autenticação centralizados, técnicas de taxas de limitação, coleta de métricas para o monitoramento dos serviços e registro dos _logs_ das requisições;
-* Adicionar um _service mesh;_
-* Implementar o balanceamento de carga;
-* Descoberta de serviços;
-* Monitoramento de tráfego;
-* Tolerância a falhas;
-* Controle de acesso e autenticação, e
-* Interrupção de circuitos.
+* Adicionar um _service mesh:_
+  * Implementar o balanceamento de carga;
+  * Descoberta de serviços;
+  * Monitoramento de tráfego;
+  * Tolerância a falhas;
+  * Controle de acesso e autenticação, e
+  * Interrupção de circuitos.
+
+
+
+A seguir, é possível visualizar uma breve explicação das práticas citadas acima, considerando o contexto de Segurança em Microsserviços:
 
 ### Brokers na comunicação entre serviços
 
@@ -24,6 +28,9 @@ _Broker_ (AVGERIOU; ZDUN, 2005) é um padrão arquitetural, no qual faz-se uso d
 
 Como os microsserviços comunicam-se através da rede, também é de fundamental importância garantir comunicação intra-serviços segura. Para isso, é essencial que as mensagens sejam sempre criptografadas para evitar ataques do tipo _men-in-the-middle_ (MitM) e _eavesdropping_.
 
+Para contexto, no ataque MitM, um invasor se posiciona entre duas partes de uma conexão que acreditam estar se comunicando diretamente, possibilitando a alteração ou injeção de mensagens\
+sem detecção por nenhuma das partes. Já no eavesdropping, também conhecido como espionagem digital, a pessoa mal-intencionada apenas escuta a comunicação sem interferir, capturando dados sensíveis.
+
 ### Protocolos seguros
 
 TLS (_Transport Layer Security_) (CLOUDFARE, 2025) é um protocolo de segurança amplamente adotado pelas soluções do mercado, responsável por criptografar a comunicação entre aplicações e serviços hospedados na internet.
@@ -32,7 +39,7 @@ TLS (_Transport Layer Security_) (CLOUDFARE, 2025) é um protocolo de segurança
 
 #### Autenticação
 
-Ao invés de adicionar uma autenticação para cada serviço uma abordagem mais adequada seria utilizar o _gateway_ de API para lidar com a autenticação de maneira centralizada, autenticando antes de redirecionar para outros serviços.
+Ao invés de adicionar uma autenticação para cada serviço, uma abordagem mais adequada seria utilizar o _gateway_ de API para lidar com a autenticação de maneira centralizada, autenticando antes de redirecionar para outros serviços.
 
 #### Autorização
 
@@ -48,11 +55,37 @@ Consiste em coletar métricas na API com o propósito de análise e monitorament
 
 #### _Log_ de requisições
 
-Consiste em registrar em _log_ as requisições realizadas para rastreabilidade;
+Consiste em registrar em _log de_ requisições realizadas entre os serviços do software, permitindo assim melhor rastreabilidade de informações;
 
-### _Service Mesh_
+### _Service Mesh (Malha de Serviços)_
 
-Service Mesh é algo mais atual na área de Segurança de Software
+Service Mesh é algo mais atual na área de Segurança de Software, e trata-se, essencialmente, de um conjunto de proxies de rede que são implantados através da aplicação, que age como mediador nas comunicações entre serviços e aplicações externas. Coloca-se que um proxy é um padrão de projeto que permite proteger um recurso ou funcionalidade do sistema quanto a acessos indevidos.
+
+#### Balanceamento de carga
+
+Além de sua camada de criptografia, o Service Mesh fornece regras baseadas em balanceamento de carga, que consiste na permissão do roteamento de tráfego através da rede, considerando latência e estado das instâncias do Back-End.
+
+#### Descoberta de serviços
+
+Em aplicações de arquitetura distribuída, o número de instâncias do serviço podem mudar de forma dinâmica. Nesse contexto, é necessário que existam mecanismos para descoberta de serviços, que habilitam serviços a encontrar outros e realizar requisições dinâmicas.
+
+#### Monitoramento de tráfego
+
+Todas as comunicações entre os serviços podem ser capturadas e registradas, possibilitando a coleta de métricas de latência, erro, sucesso, volume de requisições, dentre outros.
+
+#### Tolerância a falhas
+
+Normalmente, em caso de uma malha de serviços encontrar uma falha em sua abstração de rede TCP/IP, faz-se uso do redirecionamento para uma instância saudável, realizando o tratamento de falhas.
+
+#### Controle de acesso e autenticação
+
+Com políticas de controle de acesso através de um painel de controle, é possível definir quais serviços são autorizados a acessar cada serviço, assim como seus tipos de tráfegos autorizados.
+
+#### Interrupção de circuitos
+
+No caso de acesso a serviços que estejam sobrecarregados e com alta latência, é possível interromper as requisições para evitar que a falha se propague.
+
+
 
 
 

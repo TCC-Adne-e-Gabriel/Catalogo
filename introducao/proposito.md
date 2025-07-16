@@ -6,4 +6,4 @@ Podem ser exploradas várias alternativas para viabilizar esse intuito, por exem
 
 Buscou-se que o Catálogo contenha demonstrações de cunho mais prático sobre cada boa prática de Segurança e Monitoramento de Software, sendo providas Provas de Conceito.
 
-Por fim, destaca-se que o público-alvo deste projeto é composto, predominantemente, por profissionais da área de software atuantes nas etapas do ciclo de vida de um _software_, com ênfase em design, implementação e implantação; bem como gerentes ou gestores que demandam análises e acompanhamentos de tais etapas.
+Por fim, destaca-se que o **público-alvo** deste projeto é composto, predominantemente, por profissionais da área de _software_ atuantes nas etapas do ciclo de vida de um _software_, com ênfase em design, implementação e implantação; bem como gerentes ou gestores que demandam análises e acompanhamentos de tais etapas.
