@@ -87,5 +87,21 @@ No caso de acesso a serviços que estejam sobrecarregados e com alta latência, 
 
 
 
+### Referências
+
+AVGERIOU, P.; ZDUN, U. Architectural Patterns Revisited – A Pattern Language. 2005.\
+Disponível em: [https://eprints.cs.univie.ac.at/2698/1/ArchPatterns.pdf](https://eprints.cs.univie.ac.at/2698/1/ArchPatterns.pdf).&#x20;
+
+GHOSH, B. Everything you need to know about rate limiting for\
+apis. 2023. Disponível em: https://medium.com/@bijit211987/\
+everything-you-need-to-know-about-rate-limiting-for-apis-f236d2adcfff.
+
+CLOUDFARE. O que é o tls (transport layer security)? Cloudfare, 2025. Disponível\
+em: \<https://www.cloudflare.com/pt-br/learning/ssl/transport-layer-security-tls/
+
+ZHAO, J.; JING, S.; JIANG, L. Management of API Gateway Based on Micro-service\
+Architecture. 2018. Disponível em: \<https://iopscience.iop.org/article/10.1088/\
+1742-6596/1087/3/032032>
+
 
 
