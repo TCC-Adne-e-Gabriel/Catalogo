@@ -1,8 +1,6 @@
 # API Gateway
 
-Como forma de Roteamento de Tráfego, foi uitlizado o Ingress do próprio Kubernetes, onde&#x20;
-
-Para isso, foi utilizado o Traefik, que é um proxy reverso e Load Balancer. Ele atua como um controlador de tráfego para os serviços da aplicação. Juntamente com um recurso do Kubernetes, do tipo Ingress, o Traefik observa e interpreta os recursos Ingress e roteia o tráfego recebido para o serviço desejado, que é visível internamente pelo cluster
+Como forma de centralizar as requisições para os serviços foi utilizado o Traefik, que é um proxy reverso e Load Balancer. Ele atua como um controlador de tráfego para os serviços da aplicação. Juntamente com um recurso do Kubernetes, do tipo Ingress, o Traefik observa e interpreta os recursos Ingress e roteia o tráfego recebido para o serviço desejado, que é visível internamente pelo cluster.&#x20;
 
 {% code lineNumbers="true" %}
 ```yaml
@@ -63,3 +61,8 @@ spec:
 {% endcode %}
 
 Para uma API Gateway, também é possível acrescentar mecanismos de Rate Limit, autenticação e autorização. Porém, no contexto do trabalho, isso não foi configurado.&#x20;
+
+### Referências
+
+TRAEFIK. Traefik Proxy Documentation - Traefik. 2025. Disponível em: \<https:\
+//doc.traefik.io/traefik/>

@@ -293,5 +293,11 @@ O repositório com todos os arquivos de configuração utilizados no projeto pod
 
 ### Referências
 
-DOCKER. What is Docker? 2025. Disponível em: \<https://docs.docker.com/\
-get-started/docker-overview/>.
+DOCKER. What is Docker? 2025. Disponível em: https://docs.docker.com/\
+get-started/docker-overview/.
+
+KUBERNETES. Kubernetes. 2025. Disponível em: https://kubernetes.io/pt-br/docs/\
+home/
+
+K3S. K3s - Lightweight Kubernetes. 2025. [https://k3s.io/](https://k3s.io/). Acesso em: jul. 2025.\
+Citado na página 63.

@@ -1,4 +1,4 @@
-# Comunicação segura via TLS
+# Implementação de comunicação segura via TLS
 
 TLS (Transport Layer Security) é um protocolo de segurança que criptografa a\
 comunicação ponta a ponta entre dois sistemas, como um navegador e um servidor\
@@ -39,3 +39,10 @@ providers:
 {% endcode %}
 
 A configuração adiciona a forma de resolução do certificado a partir do trarfik, além de especificar que será utilizado API Ingress do kubernetes, e não Gateway API.&#x20;
+
+
+
+### Referências
+
+TRAEFIK. Traefik Proxy Documentation - Traefik. 2025. Disponível em: \<https:\
+//doc.traefik.io/traefik/>.
