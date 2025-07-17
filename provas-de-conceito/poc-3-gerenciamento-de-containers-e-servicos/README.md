@@ -42,7 +42,7 @@ Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em quest
 
 1. [Gerenciamento de containers com Kubernetes;](gerenciamento-de-container-com-kubernetes.md)
 2. [Implementação de comunicação segura via TLS](implementacao-de-comunicacao-segura-via-tls.md), e&#x20;
-3. [API Gateway](api-gateway.md);&#x20;
+3. [API Gateway](api-gateway.md).
 
 ### Referências
 

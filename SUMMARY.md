@@ -37,7 +37,10 @@
   * [Gerenciamento de Container com Kubernetes](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/gerenciamento-de-container-com-kubernetes.md)
   * [Implementação de comunicação segura via TLS](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/implementacao-de-comunicacao-segura-via-tls.md)
   * [API Gateway](provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/api-gateway.md)
-* [PoC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md)
+* [PoC 4 - Observabilidade e Rastreabilidade](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade/README.md)
+  * [Logging](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade/logging.md)
+  * [Coleta e visualização de métricas](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade/coleta-e-visualizacao-de-metricas.md)
+  * [Coleta e Filtro de Logs](provas-de-conceito/poc-4-observabilidade-e-rastreabilidade/coleta-e-filtro-de-logs.md)
 
 ## 📈 BOAS PRÁTICAS
 

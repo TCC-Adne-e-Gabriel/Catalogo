@@ -1,3 +1,7 @@
+---
+icon: rectangle-vertical-history
+---
+
 # API Gateway
 
 Como forma de centralizar as requisições para os serviços foi utilizado o Traefik, que é um proxy reverso e Load Balancer. Ele atua como um controlador de tráfego para os serviços da aplicação. Juntamente com um recurso do Kubernetes, do tipo Ingress, o Traefik observa e interpreta os recursos Ingress e roteia o tráfego recebido para o serviço desejado, que é visível internamente pelo cluster.&#x20;

@@ -6,11 +6,11 @@ Essa PoC consistiu na aplicação de boas práticas associadas a Monitoramento, 
 
 ### Boas práticas trabalhadas
 
-* Utilização de ferramenta de [Log](../boas-praticas/logging.md) em cada serviço;
-* Utilização do [Prometheus](../boas-praticas/prometheus-com-grafana.md) para coleta de métricas relevantes de Monitoramento;
-* Utilização de ferramenta para análise e visualização de métricas como o [Grafana](../boas-praticas/prometheus-com-grafana.md);
-* Utilização de ferramentas de [coleta e filtro de logs](../boas-praticas/prometheus-com-grafana.md), e
-* Definição de [Alertas](../boas-praticas/prometheus-com-grafana.md) configurados para determinadas métricas.
+* Utilização de ferramenta de [Log](../../boas-praticas/logging.md) em cada serviço;
+* Utilização do [Prometheus](../../boas-praticas/prometheus-com-grafana.md) para coleta de métricas relevantes de Monitoramento;
+* Utilização de ferramenta para análise e visualização de métricas como o [Grafana](../../boas-praticas/prometheus-com-grafana.md);
+* Utilização de ferramentas de [coleta e filtro de logs](../../boas-praticas/prometheus-com-grafana.md), e
+* Definição de [Alertas](../../boas-praticas/prometheus-com-grafana.md) configurados para determinadas métricas.
 
 ### Planejamento
 
@@ -29,14 +29,19 @@ As vulnerabilidades do OWASP Top Ten implantadas nessa PoC foram as seguintes:
 
 
 
-Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguintes tarefas:
+Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguintes boas práticas:
 
-* U
+* Utilização de ferramenta de Log em cada serviço (GONZALEZ; ORTIZ, 2024);
+* Utilização do Prometheus para coleta de métricas relevantes de Monitoramento\
+  (GONZALEZ; ORTIZ, 2024);
+* Utilização de ferramentas de coleta e filtro de logs.(GONZALEZ; ORTIZ, 2024), e
+* Definição de Alertas configurados para determinadas métricas (SIRIWARDENA;\
+  DIAS, 2020).
 
 ### Desenvolvimento
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
-1. F
+1.
 
 ### Análise de Resultados

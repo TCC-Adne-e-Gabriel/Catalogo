@@ -1,6 +1,6 @@
 # Prometheus com Grafana
 
-Esta boa prática foi implementada no projeto como parte da [PoC 4](../provas-de-conceito/poc-4-observabilidade-e-rastreabilidade.md). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
+Esta boa prática foi implementada no projeto como parte da [PoC 4](../provas-de-conceito/poc-4-observabilidade-e-rastreabilidade/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
 Esta prática concentra-se na utilização do **Prometheus (**[**https://prometheus.io/**](https://prometheus.io/)**)** para coleta de métricas dos microsserviços, enquanto as métricas coletadas são visualizadas por meio da criação de painéis de bordo do **Grafana (**[**https://grafana.com/**](https://grafana.com/)**)**.
 

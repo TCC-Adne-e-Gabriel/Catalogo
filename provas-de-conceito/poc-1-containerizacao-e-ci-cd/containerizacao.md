@@ -88,7 +88,7 @@ CMD ["fastapi", "run", "--port", "8001", "--host", "0.0.0.0", "app/main.py"]
 
 Após aplicação das mudanças, a análise do SonarQube indicou alterações seguras:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Ao utilizar o Docker Compose, cada serviço descrito no arquivo — como o backend\
 ou o banco de dados — é executado em containers separados. O Docker Compose permite que o build e a execução desses serviços sejam realizados de forma integrada e coordenada, simplificando o gerenciamento e a orquestração dos containers, o arquivo de configuração foi:&#x20;

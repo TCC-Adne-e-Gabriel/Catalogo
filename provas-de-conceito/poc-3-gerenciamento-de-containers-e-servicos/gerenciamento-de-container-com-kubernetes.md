@@ -1,3 +1,7 @@
+---
+icon: laptop-code
+---
+
 # Gerenciamento de Container com Kubernetes
 
 O desenvolvimento da Prova de Conceito iniciou-se com a configuração do cluster\
@@ -34,11 +38,11 @@ Apesar de ser o nó com menor capacidade de processamento, a máquina virtual fo
 Após inicialização com sucesso, é possível visualizar os nós da rede com o comando:\
 `kubectl get nodes`&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ara o acesso aos serviços no cluster kubernetes, também foi necessária a criação de repositórios do Docker Hub, que funcionam como repositórios centralizados de gerenciar e armazenar imagens docker.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Para buildar a imagem com o repositório criado:&#x20;
 
@@ -289,7 +293,7 @@ spec:
 
 
 
-O repositório com todos os arquivos de configuração utilizados no projeto podem ser visualizados aqui: [https://github.com/TCC-Adne-e-Gabriel/k3s-configs](https://github.com/TCC-Adne-e-Gabriel/k3s-configs)
+O repositório com todos os arquivos de configuração utilizados no projeto podem ser visualizados aqui: [https://github.com/TCC-Adne-e-Gabriel/k3s-configs](https://github.com/TCC-Adne-e-Gabriel/k3s-configs).
 
 ### Referências
 
