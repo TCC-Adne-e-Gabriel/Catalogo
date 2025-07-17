@@ -40,8 +40,14 @@ Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em quest
 
 1. [ORM e validação de dados de entrada e saída](orm-e-validacao-de-dados-de-entrada-e-saida.md);
 2. [Utilização de práticas de criptografia](utilizacao-de-praticas-de-criptografia.md);&#x20;
-3. [Utilização de JWT;](utilizacao-de-jwt.md)
-4. [Utilização de OAuth2](utilizacao-de-oauth2.md);&#x20;
+3. [Utilização de JWT](utilizacao-de-jwt.md), e
+4. [Utilização de OAuth2](utilizacao-de-oauth2.md).
+
+### Análise de Resultados
+
+Após a aplicação das boas práticas ao desenvolvimento da prova de conceito, foi possível realizar uma análise dos resultados obtidos, presente no seguinte tópico: [Análise de Resultados](analise-de-resultados.md).
+
+
 
 ### Referências
 

@@ -11,4 +11,4 @@ Esta prática concentra-se na detecção automatizada de bibliotecas e pacotes v
 * **Integração Contínua (**_**CI/CD**_**):** Conecta‑se facilmente a _pipelines_ (GitHub Actions, Azure DevOps, GitLab CI etc.) para detecção automatizada de dependências inseguras.
 * **Visibilidade e Relatórios**: _Logs_ detalhados para auditorias e _compliance_ são recebidos a cada execução do _scanner_, separados para cada serviço.
 
-Para começar, acesse a documentação de ambos os _scanners_, _pip-audit_ e _npm audit_, e realize a configuração inicial de instalação, que permitirá a execução dos comandos e visualização das possíveis vulnerabilidades.
+Para começar, acesse a documentação de ambos os _scanners_, [_pip-audit_](https://pypi.org/project/pip-audit/) e [_npm audit_](https://docs.npmjs.com/cli/v9/commands/npm-audit), e realize a configuração inicial de instalação, que permitirá a execução dos comandos e visualização das possíveis vulnerabilidades.

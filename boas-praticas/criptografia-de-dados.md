@@ -2,7 +2,7 @@
 
 Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
-Esta prática concentra-se na utilização de práticas de criptografia de dados por meio do _**BCrypt**_, uma biblioteca _Python_ criada com o objetivo de geração de _hashs_ para senhas.
+Esta prática concentra-se na utilização de práticas de criptografia de dados por meio do _**BCrypt (**_[_**https://pypi.org/project/bcrypt/**_](https://pypi.org/project/bcrypt/)_**)**_, uma biblioteca _Python_ criada com o objetivo de geração de _hashs_ para senhas.
 
 ### Benefícios em Arquitetura de Microsserviços
 
@@ -11,4 +11,4 @@ Esta prática concentra-se na utilização de práticas de criptografia de dados
 * **Armazenamento Seguro:** Com dados criptografados e armazenados em um banco de dados, é dificultada a realização bem sucedida de ataques e visualização de seus valores.
 * **Múltiplos Pontos de Acesso:** A implementação de um banco de dados para cada microsserviço, com seus dados criptografados com diferentes _hashs_, dificulta as tentativas maliciosas de invasores de obter todos os dados.
 
-Para começar, acesse a documentação do _BCrypt_ e utilize suas funções em seu projeto.
+Para começar, acesse a documentação do [_BCrypt_](https://pypi.org/project/bcrypt/) e utilize suas funções em seu projeto.

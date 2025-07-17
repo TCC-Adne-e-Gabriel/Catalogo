@@ -5,7 +5,7 @@ Este **Catálogo de Boas Práticas de Segurança e Monitoramento para Arquitetur
 ### **Navegação Básica**
 
 1. **Barras de Navegação Lateral**
-   * As barras de navegação lateral estão disponíveis em todas as páginas do catálogo e dentro das páginas por tópico. Use-as para saltar rapidamente entre diferentes sessões sem precisar retornar à página inicial.
+   * As barras de navegação lateral estão disponíveis em todas as páginas do catálogo e dentro das páginas por tópico. Use-as para saltar rapidamente entre diferentes seções sem precisar retornar à página inicial.
 
 ### **Explorando as Seções**
 
@@ -21,4 +21,4 @@ Cada seção do catálogo aborda um aspecto específico do desenvolvimento e imp
 ### **Interação e Feedback**
 
 1. **Comentários e Discussões**
-   * Encorajamos imensamente você a compartilhar suas experiências, fazer perguntas e discutir as práticas com outros leitores. Caso seja de seu interesse, é possível entrar em contato com os autores do catálogo por meio de seus usuários do GitHub, acessíveis pelos repositórios citados no tópico do [Sistema](../sistema-more-of-this.md).
+   * Encorajamos imensamente você a compartilhar suas experiências, fazer perguntas e discutir as práticas com outros leitores. Caso seja de seu interesse, é possível entrar em contato com os autores do catálogo por meio de seus usuários do _GitHub_, acessíveis pelos repositórios citados no tópico do [Sistema](../sistema-more-of-this.md).

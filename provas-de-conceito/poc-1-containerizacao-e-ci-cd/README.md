@@ -34,8 +34,12 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
 1. [Análise de Segurança de Software](analise-de-seguranca-de-codigo.md);&#x20;
-2. [Análise de Dependências Inseguras](analise-de-dependencias-inseguras.md);
+2. [Análise de Dependências Inseguras](analise-de-dependencias-inseguras.md), e
 3. [Containerização](containerizacao.md).
+
+### Análise de Resultados
+
+Após a aplicação das boas práticas ao desenvolvimento da prova de conceito, foi possível realizar uma análise dos resultados obtidos, presente no seguinte tópico: [Análise de Resultados](analise-de-resultados.md).
 
 
 

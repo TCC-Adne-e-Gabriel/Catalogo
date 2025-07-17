@@ -42,7 +42,11 @@ Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em quest
 
 1. [Gerenciamento de containers com Kubernetes;](gerenciamento-de-container-com-kubernetes.md)
 2. [Implementação de comunicação segura via TLS](implementacao-de-comunicacao-segura-via-tls.md), e&#x20;
-3. [API Gateway](api-gateway.md).
+3. [API Gateway](api-gateway-ingress.md).
+
+### Análise de Resultados
+
+Após a aplicação das boas práticas ao desenvolvimento da prova de conceito, foi possível realizar uma análise dos resultados obtidos, presente no seguinte tópico: [Análise de Resultados](analise-de-resultados.md).
 
 ### Referências
 

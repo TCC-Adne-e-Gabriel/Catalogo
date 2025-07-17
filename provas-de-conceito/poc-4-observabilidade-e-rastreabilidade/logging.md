@@ -4,31 +4,18 @@ icon: magnifying-glass
 
 # Logging
 
-Para o desenvolvimento da Prova de Conceito focada no monitoramento dos serviços\
-e dos nós, o primeiro passo foi a criação de um módulo de log em todos os serviços,\
-atuando no lado do servidor. A biblioteca utilizada para o gerenciamento dos logs em\
-Python foi a Logging (LOGGING, 2025), que permite criar uma instância específica\
-para o projeto e aplicar configurações personalizadas.
+Para o desenvolvimento da Prova de Conceito focada no monitoramento dos serviços e dos nós, o primeiro passo foi a criação de um módulo de log em todos os serviços, atuando no lado do servidor. A biblioteca utilizada para o gerenciamento dos logs em Python foi a Logging (LOGGING, 2025), que permite criar uma instância específica para o projeto e aplicar configurações personalizadas.
 
-Uma das primeiras decisões ao implementar o logging da aplicação consiste em\
-definir quais tipos de logs serão capturados e quais informações relevantes deverão\
-constar nesses registros. Isso porque os logs devem conter todos os dados necessários\
-para auditar o sistema e facilitar a identificação de eventuais problemas.
+Uma das primeiras decisões ao implementar o logging da aplicação consiste em definir quais tipos de logs serão capturados e quais informações relevantes deverão constar nesses registros. Isso porque os logs devem conter todos os dados necessários para auditar o sistema e facilitar a identificação de eventuais problemas.
 
 \
 Para os projetos desse trabalho foi decidido utilizar os seguintes tipos de logs:
 
-* **INFO**: Log informativo de algo que aconteceu no sistema, por exemplo, cha-\
-  madas para a API dos serviços. O FastAPI instalado já estava com essa con-\
-  figuração;
-* **AUDIT**: Log que tem como objetivo auditar as ações realizadas por um usuário\
-  no sistema;
-* **WARNING**: Log que indica situações inesperadas ou que podem levar a pro-\
-  blemas futuros, mas que não impedem o funcionamento normal da aplicação;
-* **ERROR**: Log referente a falhas que afetam diretamente uma funcionalidade da\
-  aplicação, necessitando de atenção para correção, e
-* **CRITICAL**: Log para erros graves que comprometem a continuidade do sis-\
-  tema, exigindo intervenção imediata
+* **INFO**: Log informativo de algo que aconteceu no sistema, por exemplo, chamadas para a API dos serviços. O FastAPI instalado já estava com essa configuração;
+* **AUDIT**: Log que tem como objetivo auditar as ações realizadas por um usuário no sistema;
+* **WARNING**: Log que indica situações inesperadas ou que podem levar a problemas futuros, mas que não impedem o funcionamento normal da aplicação;
+* **ERROR**: Log referente a falhas que afetam diretamente uma funcionalidade da aplicação, necessitando de atenção para correção, e
+* **CRITICAL**: Log para erros graves que comprometem a continuidade do sistema, exigindo intervenção imediata
 
 Todos os logs do sistema foram pensados para conter as seguintes informações:
 
@@ -38,13 +25,11 @@ Todos os logs do sistema foram pensados para conter as seguintes informações:
 * ID do usuário que está logado, e
 * Ação que foi feita ou detalhes da exceção lançada;
 
-Para auxiliar no suporte ao sistema, foi adicionado um código gerado aleatoriamente\
-em mensagens de erro não tratadas. Assim, seria possível localizar os detalhes da\
-exceção ao buscar pelo código em um possível centralizador de logs.
+Para auxiliar no suporte ao sistema, foi adicionado um código gerado aleatoriamente em mensagens de erro não tratadas. Assim, seria possível localizar os detalhes da exceção ao buscar pelo código em um possível centralizador de logs.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Fonte: Autores. Ferramenta: Postman (2025).
+<p align="center">Fonte: Autores. Ferramenta: Postman (2025).</p>
 
 Para viabilizar a inclusão de logs no sistema, foi utilizada uma biblioteca do Python que permite armazenar variáveis no contexto da thread. No caso dos sistemas analisados, as variáveis definidas foram o IP do cliente que está realizando a requisição e o ID do usuário autenticado.
 
@@ -57,13 +42,7 @@ client_ip_context: ContextVar[str | None] = ContextVar("client_ip_context", defa
 ```
 {% endcode %}
 
-Para capturar o IP do cliente e adicioná-lo ao contexto, foi criado um arquivo\
-de middleware, _que é um comp&#x6F;_&#x6E;ente inserido na cadeia de requisições HTTP e\
-capaz de executar ações durante o processamento dessas requisições. Foi\
-desenvolvido um middleware personalizado para inserir o IP do cliente no contexto,\
-obtendo-o a partir do cabeçalho X-Forwarded-For.  Caso esse cabeçalho não estivesse\
-presente — situação comum quando o cliente não utiliza proxy — o IP foi extraído\
-diretamente do host da requisição (Request).
+Para capturar o IP do cliente e adicioná-lo ao contexto, foi criado um arquivo de middleware, _que é um comp&#x6F;_&#x6E;ente inserido na cadeia de requisições HTTP e capaz de executar ações durante o processamento dessas requisições. Foi desenvolvido um middleware personalizado para inserir o IP do cliente no contexto, obtendo-o a partir do cabeçalho X-Forwarded-For.  Caso esse cabeçalho não estivesse presente — situação comum quando o cliente não utiliza proxy — o IP foi extraído diretamente do host da requisição (Request).
 
 {% code title="app/middlewares.py" lineNumbers="true" %}
 ```python
@@ -82,12 +61,9 @@ class ClientIPMiddleware(BaseHTTPMiddleware):
 
 
 
-Em seguida, o arquivo de configuração de _logging_ define as classes personalizadas criadas para o projeto. A classe MaxLevelFilter foi implementada para filtrar _logs_ com nível abaixo de WARNING, sendo utilizada posteriormente para decidir quais _logs_ seriam direcionados para o _stdout_ ou para o _stderr._&#x20;
+Em seguida, o arquivo de configuração de _logging_ define as classes personalizadas criadas para o projeto. A classe MaxLevelFilter foi implementada para filtrar _logs_ com nível abaixo de _WARNING_, sendo utilizada posteriormente para decidir quais _logs_ seriam direcionados para o _stdout_ ou para o _stderr._
 
-Adicionalmente, a classe ContextLoggerAdapter é responsável por processar todas as\
-chamadas de logs, inserindo automaticamente as variáveis de contexto como itens\
-adicionais nas mensagens, garantindo que informações relevantes estejam presentes\
-nos registros, o IP do Cliente e o ID do usuário.
+Adicionalmente, a classe ContextLoggerAdapter é responsável por processar todas as chamadas de logs, inserindo automaticamente as variáveis de contexto como itens adicionais nas mensagens, garantindo que informações relevantes estejam presentes nos registros, o IP do Cliente e o ID do usuário.
 
 Segue o arquivo completo de configuração de log da aplicação:&#x20;
 
@@ -148,9 +124,7 @@ logger = ContextLoggerAdapter(logger, {})
 ```
 {% endcode %}
 
-Para criação de um log, basta adicionar uma linha de código semelhante a:\
-logger.audit(), com a mensagem desejada. O "audit" representa o nível do log a\
-ser disparado.
+Para criação de um log, basta adicionar uma linha de código semelhante a: logger.audit(), com a mensagem desejada. O "audit" representa o nível do log a ser disparado.
 
 ### Referências
 

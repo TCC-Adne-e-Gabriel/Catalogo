@@ -12,8 +12,7 @@ A lista OWASP Top 10 de 2021 (OWASP, 2021), apresenta as seguintes vulnerabilida
 
 1. #### Quebra de Controle de Acesso (A01:2021 – _Broken Access Control_)
 
-Políticas de controle de acesso devem garantir que um usuário não pode agir fora do que está dentro de suas permissões. Violações na política de acesso podem permitir a modificação, visualização ou destruição de dados ou acesso de funcionalidades de negócio indesejadas (OWASP, 2021).\
-Segundo OWASP (2021), dentre as vulnerabilidades de controle de acesso que podem ser exploradas, é comum a violação do princípio do menor privilégio.
+Políticas de controle de acesso devem garantir que um usuário não pode agir fora do que está dentro de suas permissões. Violações na política de acesso podem permitir a modificação, visualização ou destruição de dados ou acesso de funcionalidades de negócio indesejadas (OWASP, 2021).&#x20;Segundo OWASP (2021), dentre as vulnerabilidades de controle de acesso que podem ser exploradas, é comum a violação do princípio do menor privilégio.
 
 
 
@@ -25,8 +24,7 @@ As vulnerabilidades de falhas de criptografia auxiliam em como determinar as pro
 
 3. **Injeção (A03:2021 –&#x20;**_**Injection**_**)**
 
-Segundo OWASP (2021), normalmente, as aplicações estão sujeitas aos ataques\
-desse tipo, quando não validam os dados fornecidos pelos usuários; existem consultas dinâmicas e chamadas não parametrizadas, e dados são usados diretamente ou concatenados. Dentre recomendações para prevenir esse tipo de vulnerabilidade, é importante enfatizar a definição de limites em comandos SQL para evitar comandos em massa; utilização de validação de entrada pelo lado do servidor; utilização de ferramentas de mapeamento relacional de dados, dentre outros.
+Segundo OWASP (2021), normalmente, as aplicações estão sujeitas aos ataques desse tipo, quando não validam os dados fornecidos pelos usuários; existem consultas dinâmicas e chamadas não parametrizadas, e dados são usados diretamente ou concatenados. Dentre recomendações para prevenir esse tipo de vulnerabilidade, é importante enfatizar a definição de limites em comandos SQL para evitar comandos em massa; utilização de validação de entrada pelo lado do servidor; utilização de ferramentas de mapeamento relacional de dados, dentre outros.
 
 
 

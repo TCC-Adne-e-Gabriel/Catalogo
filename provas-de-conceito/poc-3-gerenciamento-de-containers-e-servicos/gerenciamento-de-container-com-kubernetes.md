@@ -4,10 +4,7 @@ icon: laptop-code
 
 # Gerenciamento de Container com Kubernetes
 
-O desenvolvimento da Prova de Conceito iniciou-se com a configuração do cluster\
-utilizando do k3s. No trabalho em questão, utilizou-se de uma máquina virtual e\
-duas físicas dos próprios autores para os testes. As especificações das máquinas\
-utilizadas são:
+O desenvolvimento da Prova de Conceito iniciou-se com a configuração do cluster utilizando do k3s. No trabalho em questão, utilizou-se de uma máquina virtual e duas físicas dos próprios autores para os testes. As especificações das máquinas utilizadas são:
 
 * Nó principal: Máquina Virtual Debian 12, com 4GB de RAM;
 * Worker 1: Máquina Windows com WSL Ubuntu 22.02, 40GB de RAM;
@@ -35,14 +32,20 @@ O token do master pode ser encontrado em `/var/lib/rancher/k3s/server/node-token
 
 Apesar de ser o nó com menor capacidade de processamento, a máquina virtual foi escolhida para ser o nó principal, pois ficou dedicada para esse uso. Sendo assim, por ser o nó que roda mais pods, essa foi considerada uma limitação durante o trabalho.
 
-Após inicialização com sucesso, é possível visualizar os nós da rede com o comando:\
+Após inicialização com sucesso, é possível visualizar os nós da rede com o comando:
+
+\
 `kubectl get nodes`&#x20;
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-ara o acesso aos serviços no cluster kubernetes, também foi necessária a criação de repositórios do Docker Hub, que funcionam como repositórios centralizados de gerenciar e armazenar imagens docker.
+<p align="center">Fonte: Autores.</p>
+
+Para o acesso aos serviços no cluster kubernetes, também foi necessária a criação de repositórios do Docker Hub, que funcionam como repositórios centralizados de gerenciar e armazenar imagens docker.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+<p align="center">Fonte: Autores. Ferramenta: Docker (2025).</p>
 
 Para buildar a imagem com o repositório criado:&#x20;
 
@@ -84,12 +87,7 @@ data:
 ```
 {% endcode %}
 
-O PersistentVolume é uma parte de armazenamento dentro do cluster; enquanto que\
-o PersistentVolumeClaim é uma requisição do armazenamento por algum usuário.\
-O Código 34 apresenta o código do volume persistente; enquanto que o Código\
-35 apresenta a solicitação do volume com acesso de leitura e escrita. Importante\
-ressaltar que além do nome, o caminho em hostPath deve ser diferente para cada\
-banco de dados de cada serviço, para que não acessem o mesmo lugar da memória.
+O PersistentVolume é uma parte de armazenamento dentro do cluster; enquanto que o PersistentVolumeClaim é uma requisição do armazenamento por algum usuário. O Código PersistentVolume apresenta o código do volume persistente; enquanto que o Código PersistentVolumeClaim apresenta a solicitação do volume com acesso de leitura e escrita. Importante ressaltar que além do nome, o caminho em hostPath deve ser diferente para cada banco de dados de cada serviço, para que não acessem o mesmo lugar da memória.
 
 **PersistentVolume**:&#x20;
 

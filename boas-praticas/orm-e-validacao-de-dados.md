@@ -2,7 +2,7 @@
 
 Esta boa prática foi implementada no projeto como parte da [PoC 2](../provas-de-conceito/poc-2-autenticacao-e-comunicacao/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
-Esta prática concentra-se na utilização do _**SQLAlchemy**_, um _**ORM**_ que fornece uma camada de abstração para acesso ao banco de dados, e a utilização da biblioteca de _**Python**_ _**Pydantic**_ para validação de dados.
+Esta prática concentra-se na utilização do _**SQLAlchemy (**_[_**https://www.sqlalchemy.org/**_](https://www.sqlalchemy.org/)_**)**_, um _**ORM**_ que fornece uma camada de abstração para acesso ao banco de dados, e a utilização da biblioteca de _**Python**_ _**Pydantic (**_[_**https://docs.pydantic.dev/latest/**_](https://docs.pydantic.dev/latest/)_**)**_ para validação de dados.
 
 ### Benefícios em Arquitetura de Microsserviços
 
@@ -11,4 +11,4 @@ Esta prática concentra-se na utilização do _**SQLAlchemy**_, um _**ORM**_ que
 * **Retorno Precoce:** Ao utilizar o _Pydantic_, um _endpoint_ que receba um dado fora do esperado retorna automaticamente, com o erro **"422 Unprocessable Entity"**.
 * **Continuidade de Dados:** Previne o envio de dados incorretos entre microsserviços, evitando conflitos de continuidade de operações e erros.
 
-Para começar, acesse a documentação de ambos _SQLAlchemy_ e _Pydantic_, e configure-os em seu projeto.
+Para começar, acesse a documentação de ambos [_SQLAlchemy_](https://docs.sqlalchemy.org/en/20/) e [_Pydantic_](https://docs.pydantic.dev/latest/api/base_model/), e configure-os em seu projeto.

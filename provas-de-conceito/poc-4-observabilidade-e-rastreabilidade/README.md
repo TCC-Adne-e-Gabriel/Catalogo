@@ -34,7 +34,7 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 * Utilização de ferramenta de Log em cada serviço (GONZALEZ; ORTIZ, 2024);
 * Utilização do Prometheus para coleta de métricas relevantes de Monitoramento\
   (GONZALEZ; ORTIZ, 2024);
-* Utilização de ferramentas de coleta e filtro de logs.(GONZALEZ; ORTIZ, 2024), e
+* Utilização de ferramentas de coleta e filtro de logs (GONZALEZ; ORTIZ, 2024), e
 * Definição de Alertas configurados para determinadas métricas (SIRIWARDENA;\
   DIAS, 2020).
 
@@ -42,6 +42,11 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
-1.
+1. [Logging](logging.md);
+2. [Coleta e visualização de métricas](coleta-e-visualizacao-de-metricas.md);
+3. [Coleta e Filtro de Logs](coleta-e-filtro-de-logs.md), e
+4. [Definição de Alertas](definicao-de-alertas.md).
 
 ### Análise de Resultados
+
+Após a aplicação das boas práticas ao desenvolvimento da prova de conceito, foi possível realizar uma análise dos resultados obtidos, presente no seguinte tópico: [Análise de Resultados](analise-de-resultados.md).
