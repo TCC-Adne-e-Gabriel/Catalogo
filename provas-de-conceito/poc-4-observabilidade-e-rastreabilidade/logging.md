@@ -42,7 +42,7 @@ Para auxiliar no suporte ao sistema, foi adicionado um código gerado aleatoriam
 em mensagens de erro não tratadas. Assim, seria possível localizar os detalhes da\
 exceção ao buscar pelo código em um possível centralizador de logs.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Fonte: Autores. Ferramenta: Postman (2025).
 

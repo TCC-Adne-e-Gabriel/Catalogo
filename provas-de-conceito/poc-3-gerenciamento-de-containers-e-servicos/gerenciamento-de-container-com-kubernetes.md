@@ -38,11 +38,11 @@ Apesar de ser o nó com menor capacidade de processamento, a máquina virtual fo
 Após inicialização com sucesso, é possível visualizar os nós da rede com o comando:\
 `kubectl get nodes`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ara o acesso aos serviços no cluster kubernetes, também foi necessária a criação de repositórios do Docker Hub, que funcionam como repositórios centralizados de gerenciar e armazenar imagens docker.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Para buildar a imagem com o repositório criado:&#x20;
 
