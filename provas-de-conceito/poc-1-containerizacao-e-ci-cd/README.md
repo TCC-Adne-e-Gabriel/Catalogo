@@ -8,9 +8,9 @@ para os diferentes microsserviços, assim possibilitando a implantação e a an�
 
 ### Boas práticas trabalhadas
 
-* Utilização de um [container](../../boas-praticas/container-docker.md) Docker para cada microsserviço;
+* Utilização de um [container](../../boas-praticas/containerizacao.md) Docker para cada microsserviço;
 * Utilização de ferramentas de [análise de segurança](../../boas-praticas/analise-de-seguranca-de-codigo.md) de código em tempo de deploy, ou seja, aplicação de pipelines de segurança com a utilização de SonarQube, e
-* Utilização de ferramentas para [análise de dependências inseguras](../../boas-praticas/scanner-de-dependencias-inseguras.md) em tempo de deploy.
+* Utilização de ferramentas para [análise de dependências inseguras](../../boas-praticas/analise-de-dependencias-inseguras.md) em tempo de deploy.
 
 ### Planejamento
 

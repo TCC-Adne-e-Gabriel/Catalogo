@@ -1,8 +1,8 @@
-# Kubernetes
+# Gerenciamento de Containers
 
 Esta boa prática foi implementada no projeto como parte da [PoC 3](../provas-de-conceito/poc-3-gerenciamento-de-containers-e-servicos/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
-Esta prática concentra-se na utilização do Kubernetes ([https://kubernetes.io/pt-br/](https://kubernetes.io/pt-br/)) para gerenciamento e hospedagem de containers dos microsserviços de uma aplicação.
+Esta prática concentra-se na utilização de ferramentas como o Kubernetes ([https://kubernetes.io/pt-br/](https://kubernetes.io/pt-br/)) para gerenciamento e hospedagem de containers dos microsserviços de uma aplicação.
 
 ### Benefícios em Arquitetura de Microsserviços
 

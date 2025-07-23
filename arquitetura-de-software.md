@@ -12,7 +12,7 @@ No decorrer do catálogo, dois estilos arquiteturais serão os mais abordados: O
 
 ### Arquitetura Monolítica
 
-A Arquitetura Monolítica, de acordo com Flower (2014), é um modelo tradicional\
+A Arquitetura Monolítica, de acordo com Fowler (2014), é um modelo tradicional\
 de desenvolvimento de software em que um sistema é construído em apenas uma unidade.\
 As aplicações monolíticas normalmente são compostas por um dispositivo de acesso por parte do usuário, a aplicação em si, e o banco de dados.
 
@@ -59,7 +59,7 @@ BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice. \[S.l.]:\
 Addison-Wesley Professional, 2003. Google-Books-ID: mdiIu8Kk1WMC. ISBN\
 978-0-321-15495-8.
 
-FLOWER, M. Microservices. 2014. Disponível em: \<https://martinfowler.com/articles/\
+FOWLER, M. Microservices. 2014. Disponível em: \<https://martinfowler.com/articles/\
 microservices.html>.
 
 RICHARDSON, C. When to use the microservice architecture: part 5 - the monolithic architecture and rapid, frequent, reliable and sustainable software delivery. 2021. Disponível em: \<https://microservices.io/post/microservices/2021/02/14/ why-microservices-part-5-monolith.html>

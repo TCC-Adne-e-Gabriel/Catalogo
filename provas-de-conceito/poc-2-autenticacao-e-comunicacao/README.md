@@ -9,8 +9,8 @@ entrada e saída, manipulação e armazenamento de dados, autenticação e autor
 
 * Utilização de [ORM (Object-Relational Mapping) e validação de dados](../../boas-praticas/orm-e-validacao-de-dados.md) de entrada e saída;
 * Utilização de práticas de [Criptografia de Dados](../../boas-praticas/criptografia-de-dados.md);
-* Utilização do protocolo [JWT](../../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização, e
-* Utilização do protocolo [OAuth 2.0](../../boas-praticas/jwt-e-oauth2.md) para autenticação e autorização.
+* Utilização do protocolo [JWT](../../boas-praticas/autenticacao-e-autorizacao.md) para autenticação e autorização, e
+* Utilização do protocolo [OAuth 2.0](../../boas-praticas/autenticacao-e-autorizacao.md) para autenticação e autorização.
 
 ### Planejamento
 

@@ -7,10 +7,10 @@ Essa PoC consistiu na aplicação de boas práticas associadas a Monitoramento, 
 ### Boas práticas trabalhadas
 
 * Utilização de ferramenta de [Log](../../boas-praticas/logging.md) em cada serviço;
-* Utilização do [Prometheus](../../boas-praticas/prometheus-com-grafana.md) para coleta de métricas relevantes de Monitoramento;
-* Utilização de ferramenta para análise e visualização de métricas como o [Grafana](../../boas-praticas/prometheus-com-grafana.md);
-* Utilização de ferramentas de [coleta e filtro de logs](../../boas-praticas/prometheus-com-grafana.md), e
-* Definição de [Alertas](../../boas-praticas/prometheus-com-grafana.md) configurados para determinadas métricas.
+* Utilização do [Prometheus](../../boas-praticas/coleta-e-visualizacao-de-metricas.md) para coleta de métricas relevantes de Monitoramento;
+* Utilização de ferramenta para análise e visualização de métricas como o [Grafana](../../boas-praticas/coleta-e-visualizacao-de-metricas.md);
+* Utilização de ferramentas de [coleta e filtro de logs](../../boas-praticas/coleta-e-visualizacao-de-metricas.md), e
+* Definição de [Alertas](../../boas-praticas/coleta-e-visualizacao-de-metricas.md) configurados para determinadas métricas.
 
 ### Planejamento
 

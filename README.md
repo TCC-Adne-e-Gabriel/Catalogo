@@ -10,7 +10,11 @@ Seja bem-vindo ao "**Catálogo de Boas Práticas de Segurança e Monitoramento p
 
 O material é resultado de um estudo exploratório, proveniente de um Trabalho de Conclusão de Curso de Engenharia de Software pela Universidade de Brasília que utilizou de Provas de Conceito para aplicar boas práticas de Segurança e Monitoramento em uma arquitetura que utiliza de microsserviços.&#x20;
 
-Autores:&#x20;
+Os repositórios do sistema podem ser acessados por meio da organização do GitHub presente no seguinte link de acesso: [https://github.com/TCC-Adne-e-Gabriel](https://github.com/TCC-Adne-e-Gabriel).
+
+Para mais informações acerca do sistema, é possível visualizar os READMEs dos repositórios, ou acessar o tópico de Contextualização do [Sistema - MORE OF THIS](sistema-more-of-this.md).
+
+Autores (mais detalhadamente apresentados em [Sobre Nós](introducao/sobre-nos.md)):
 
 * Adne Moretti Moreira
 * Gabriel Moretti de Souza

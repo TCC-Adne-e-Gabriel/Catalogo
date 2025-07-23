@@ -1,8 +1,8 @@
-# Scanner de Dependências Inseguras
+# Análise de Dependências Inseguras
 
 Esta boa prática foi implementada no projeto como parte da [PoC 1](../provas-de-conceito/poc-1-containerizacao-e-ci-cd/). Para mais detalhes sobre uma aplicação dessa prática em um sistema e suas especificações, visite a prova de conceito em questão.
 
-Esta prática concentra-se na detecção automatizada de bibliotecas e pacotes vulneráveis em projetos _backend_ e _frontend_, utilizando _**pip-audit**_ para _Python_ (_backend_) e _**npm audit**_ para _JavaScript/Node.js_ (_frontend_).
+Esta prática concentra-se na detecção automatizada de bibliotecas e pacotes vulneráveis em projetos _backend_ e _frontend_, utilizando ferramentas como o _**pip-audit**_ para _Python_ (_backend_) e _**npm audit**_ para _JavaScript/Node.js_ (_frontend_).
 
 ### Benefícios em Arquitetura de Microsserviços
 

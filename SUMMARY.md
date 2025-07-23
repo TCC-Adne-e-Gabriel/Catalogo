@@ -4,6 +4,7 @@
 
 ## ❗ Introdução
 
+* [Sobre Nós](introducao/sobre-nos.md)
 * [Propósito](introducao/proposito.md)
 * [Metodologia](introducao/metodologia.md)
 * [Estrutura](introducao/estrutura.md)
@@ -48,14 +49,14 @@
 
 ## 📈 BOAS PRÁTICAS
 
-* [Container Docker](boas-praticas/container-docker.md)
+* [Containerização](boas-praticas/containerizacao.md)
 * [Análise de Segurança de Código](boas-praticas/analise-de-seguranca-de-codigo.md)
-* [Scanner de Dependências Inseguras](boas-praticas/scanner-de-dependencias-inseguras.md)
+* [Análise de Dependências Inseguras](boas-praticas/analise-de-dependencias-inseguras.md)
 * [ORM e Validação de Dados](boas-praticas/orm-e-validacao-de-dados.md)
 * [Criptografia de Dados](boas-praticas/criptografia-de-dados.md)
-* [JWT e OAuth2](boas-praticas/jwt-e-oauth2.md)
-* [Kubernetes](boas-praticas/kubernetes.md)
-* [Comunicação Segura com TLS](boas-praticas/comunicacao-segura-com-tls.md)
-* [API Gateway](boas-praticas/api-gateway.md)
+* [Autenticação e Autorização](boas-praticas/autenticacao-e-autorizacao.md)
+* [Gerenciamento de Containers](boas-praticas/gerenciamento-de-containers.md)
+* [Comunicação Segura entre Microsserviços](boas-praticas/comunicacao-segura-entre-microsservicos.md)
+* [Roteamento de Tráfego](boas-praticas/roteamento-de-trafego.md)
 * [Logging](boas-praticas/logging.md)
-* [Prometheus com Grafana](boas-praticas/prometheus-com-grafana.md)
+* [Coleta e Visualização de Métricas](boas-praticas/coleta-e-visualizacao-de-metricas.md)
