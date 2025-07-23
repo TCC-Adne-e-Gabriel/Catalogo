@@ -33,7 +33,7 @@ Porém, a depender da forma em que é construída, as arquiteturas monolíticas 
 
 ### Arquitetura de Microsserviços
 
-Segundo Flower (2014), o estilo arquitetural de microsserviços propõe uma abordagem para desenvolver uma aplicação como um conjunto de pequenos serviços, cada um rodando um processo específico e se comunicando com os outros serviços através de sistemas de mensagerias. Dentre os princípios de microsserviços definidos por Martin Flower, estão:&#x20;
+Segundo Fowler (2014), o estilo arquitetural de microsserviços propõe uma abordagem para desenvolver uma aplicação como um conjunto de pequenos serviços, cada um rodando um processo específico e se comunicando com os outros serviços através de sistemas de mensagerias. Dentre os princípios de microsserviços definidos por Martin Fowler, estão:&#x20;
 
 * **Independência:** Cada serviço construído como uma unidade independente;&#x20;
 * **Organização por negócio:** Os serviços são organizados em módulos de negócios e exigem implementação de _software_ para a interface de usuário (_Front-End_), o banco de dados, e a aplicação do lado do servidor (_Back-End_);
@@ -44,7 +44,7 @@ A Figura a seguir mostra um comparativo entre os dois estilos arquiteturais:&#x2
 
 <figure><img src=".gitbook/assets/martinflower.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;                                                           Fonte: Flower (2014)
+&#x20;                                                           Fonte: Fowler (2014)
 
 Porém, a utilização de sistemas distribuídos também é caracterizada pela aparição de novos desafios.
 
@@ -52,14 +52,18 @@ Porém, a utilização de sistemas distribuídos também é caracterizada pela a
 
 ### Referências
 
-GARLAN, D.; SHAW, M. Introduction to software architecture. In: . \[S.l.]: Springer\
+GARLAN, D.; SHAW, M. Introduction to software architecture. In: . \[S.l.]: Springer
+\
 Nature, 2009
 
-BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice. \[S.l.]:\
-Addison-Wesley Professional, 2003. Google-Books-ID: mdiIu8Kk1WMC. ISBN\
+BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice. \[S.l.]:
+\
+Addison-Wesley Professional, 2003. Google-Books-ID: mdiIu8Kk1WMC. ISBN
+\
 978-0-321-15495-8.
 
-FOWLER, M. Microservices. 2014. Disponível em: \<https://martinfowler.com/articles/\
+FOWLER, M. Microservices. 2014. Disponível em: \<https://martinfowler.com/articles/
+\
 microservices.html>.
 
 RICHARDSON, C. When to use the microservice architecture: part 5 - the monolithic architecture and rapid, frequent, reliable and sustainable software delivery. 2021. Disponível em: \<https://microservices.io/post/microservices/2021/02/14/ why-microservices-part-5-monolith.html>
