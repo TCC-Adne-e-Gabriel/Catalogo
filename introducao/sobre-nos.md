@@ -1,42 +1,7 @@
 # Sobre Nós
 
-Como citado na página principal do Catálogo, este material é resultado de um estudo exploratório, proveniente de um Trabalho de Conclusão de Curso do curso de Engenharia de Software pela Universidade de Brasília. Os autores deste trabalho são estudantes do mesmo curso, que terão suas informações divulgadas logo abaixo.
+Como citado na página principal do Catálogo, este material é resultado de um estudo exploratório, proveniente de um Trabalho de Conclusão de Curso do curso de Engenharia de Software pela Universidade de Brasília.
 
-<div style="display: flex; gap: 2rem; justify-content: center;">
-  <div style="display: flex; flex-direction: column; align-items: center; max-width: 200px;">
-    <img
-      src=".gitbook/assets/profilec.png"
-      alt="Usuário 1"
-      style="
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 2px solid #ddd;
-        margin-bottom: 0.5rem;
-      "
-    />
-    <p><strong>Nome:</strong> Usuário 1</p>
-    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/usuario1" target="_blank">linkedin.com/usuario1</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/usuario1" target="_blank">github.com/usuario1</a></p>
-  </div>
+Os autores deste trabalho são estudantes do mesmo curso, que estão finalizando suas atividades e que terão suas informações divulgadas nos cards, logo abaixo. É importante citar que estamos abertos a qualquer feedback, é possível seguir qualquer meio abaixo para contato!
 
-  <div style="display: flex; flex-direction: column; align-items: center; max-width: 200px;">
-    <img
-      src=".gitbook/assets/profilec.png"
-      alt="Usuário 2"
-      style="
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 2px solid #ddd;
-        margin-bottom: 0.5rem;
-      "
-    />
-    <p><strong>Nome:</strong> Usuário 2</p>
-    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/usuario2" target="_blank">linkedin.com/usuario2</a></p>
-    <p><strong>Portfolio:</strong> <a href="https://portfolio-usuario2.com" target="_blank">portfolio-usuario2.com</a></p>
-  </div>
-
-</div>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>Nome</th><th>LinkedIn</th><th>GitHub</th><th>Email para contato:</th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Gabriel Moretti de Souza</td><td><a href="https://www.linkedin.com/in/morettigs/">https://www.linkedin.com/in/morettigs/</a></td><td><a href="https://github.com/MorettiGS">https://github.com/MorettiGS</a></td><td>morettigs.dev@gmail.com</td><td><a href="../.gitbook/assets/profilec (1).jpg">profilec (1).jpg</a></td></tr><tr><td>Adne Moretti Moreira</td><td><a href="https://www.linkedin.com/in/adne-moretti-b4875b1b0/">https://www.linkedin.com/in/adne-moretti-b4875b1b0/</a></td><td><a href="https://github.com/AdneMoretti">https://github.com/AdneMoretti</a></td><td></td><td></td></tr></tbody></table>

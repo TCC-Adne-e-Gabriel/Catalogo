@@ -12,8 +12,6 @@
 
 ## 📚 Contextualização
 
-***
-
 * [Arquitetura de Software](arquitetura-de-software.md)
 * [Segurança de Software](seguranca-de-software/README.md)
   * [OWASP Top Ten](seguranca-de-software/owasp-top-ten.md)
