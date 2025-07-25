@@ -30,7 +30,7 @@ As vulnerabilidades do **OWASP Top Ten** implantadas nessa PoC foram as seguinte
 
 Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguintes tarefas:
 
-* Utilização de Kubernetes para gerenciamento dos containers (JAMSHIDI et al.,\
+* Orquestração de Containers (JAMSHIDI et al.,\
   2018\);&#x20;
 * Utilização do protocolo de comunicação segura via TLS (GONZALEZ; ORTIZ,\
   2024\), e
@@ -40,7 +40,7 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
-1. [Gerenciamento de containers com Kubernetes;](gerenciamento-de-container-com-kubernetes.md)
+1. [Orquestração de Containers](gerenciamento-de-container-com-kubernetes.md);
 2. [Implementação de comunicação segura via TLS](implementacao-de-comunicacao-segura-via-tls.md), e&#x20;
 3. [API Gateway](api-gateway-ingress.md).
 

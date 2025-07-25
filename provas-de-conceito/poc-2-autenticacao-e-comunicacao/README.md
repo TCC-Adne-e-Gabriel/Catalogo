@@ -30,18 +30,18 @@ Com as vulnerabilidades em mente, o planejamento dessa PoC seguiu com as seguint
 
 * Utilização de ORM (Object-Relational Mapping) (COOKIES, 2024) e validação de\
   dados de entrada e saída;
-* Utilização de práticas de Criptografia de Dados (OWASP, 2021);
-* Utilização do protocolo JWT (GONZALEZ; ORTIZ, 2024), e
-* Utilização do protocolo OAuth 2.0 (GONZALEZ; ORTIZ, 2024).
+* Utilização de Práticas de Criptografia de Dados (OWASP, 2021);
+* Utilização do Protocolo Tokens de Acesso (GONZALEZ; ORTIZ, 2024), e
+* Utilização do Protocolo de Autorização (GONZALEZ; ORTIZ, 2024).
 
 ### Desenvolvimento
 
 Portanto, foi possível seguir para as etapas de desenvolvimento da PoC em questão:
 
 1. [ORM e validação de dados de entrada e saída](orm-e-validacao-de-dados-de-entrada-e-saida.md);
-2. [Utilização de práticas de criptografia](utilizacao-de-praticas-de-criptografia.md);&#x20;
-3. [Utilização de JWT](utilizacao-de-jwt.md), e
-4. [Utilização de OAuth2](utilizacao-de-oauth2.md).
+2. [Utilização de Práticas de Criptografia](utilizacao-de-praticas-de-criptografia.md);&#x20;
+3. [Utilização de Tokens de Acesso,](utilizacao-de-jwt.md) e
+4. [Utilização de Protocolo para Autorização](utilizacao-de-oauth2.md).
 
 ### Análise de Resultados
 
