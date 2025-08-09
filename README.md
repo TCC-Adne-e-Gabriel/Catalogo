@@ -23,14 +23,14 @@ Autores (mais detalhadamente apresentados em [Sobre Nós](introducao/sobre-nos.m
 
 ### Repositórios do projeto:&#x20;
 
-Todos os repositórios do projeto podem ser encontrados na organização do GitHub: [**https://github.com/TCC-Adne-e-Gabriel**](https://github.com/TCC-Adne-e-Gabriel)&#x20;
+Como citado, todos os repositórios do projeto podem ser encontrados na organização do GitHub: [**https://github.com/TCC-Adne-e-Gabriel**](https://github.com/TCC-Adne-e-Gabriel)&#x20;
 
 Seguem, também, links específicos para cada repositório:
 
 * Serviço de U**suário**: [**https://github.com/TCC-Adne-e-Gabriel/tcc-customer**](https://github.com/TCC-Adne-e-Gabriel/tcc-customer)**;**
 * Serviço de **Pedidos** e **Pagamentos:** [**https://github.com/TCC-Adne-e-Gabriel/tcc-order**](https://github.com/TCC-Adne-e-Gabriel/tcc-order)**;**
-* Serviço de **Produtos**: [**https://github.com/TCC-Adne-e-Gabriel/tcc-order**](https://github.com/TCC-Adne-e-Gabriel/tcc-order)**;**
-* _**Front-End**_: [**https://github.com/TCC-Adne-e-Gabriel/tcc-order**](https://github.com/TCC-Adne-e-Gabriel/tcc-order)**;**
+* Serviço de **Produtos**: [**https://github.com/TCC-Adne-e-Gabriel/tcc-catalog**](https://github.com/TCC-Adne-e-Gabriel/tcc-catalog)**;**
+* _**Front-End**_: [**https://github.com/TCC-Adne-e-Gabriel/tcc-front**](https://github.com/TCC-Adne-e-Gabriel/tcc-front)**;**
 * Configurações para o **k3s**: [**https://github.com/TCC-Adne-e-Gabriel/k3s-configs**](https://github.com/TCC-Adne-e-Gabriel/k3s-configs)**, e**
 * **Catálogo:** [**https://github.com/TCC-Adne-e-Gabriel/Catalogo**](https://github.com/TCC-Adne-e-Gabriel/Catalogo)**.**
 
