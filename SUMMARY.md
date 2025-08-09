@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🔐 Catálogo de Boas Práticas de Segurança e Monitoramento6](README.md)
+* [🔐 Catálogo de Boas Práticas de Segurança e Monitoramento](README.md)
 
 ## ❗ Introdução
 
